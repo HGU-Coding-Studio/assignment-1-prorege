@@ -1,0 +1,27 @@
+body{
+  padding: 10px;
+}
+
+#navbar{
+  margin-bottom: 30px;
+}
+
+#carouselExample{
+  height: 100px;
+  width: 500px;
+}
+.card-container {
+  display: inline-flex;
+    flex-wrap: wrap;          /* 자식 요소를 가로로 배열 */
+    justify-content:flex; /* 자식 요소들 사이에 여백을 균등 분배 */
+    gap: 10px;               /* 각 아이템 간의 간격 */
+  }
+  
+  .card {
+    width: 50px;            /* 각 아이템의 너비 */
+    height: 50%;           /* 각 아이템의 높이 */
+    background-color: lightblue; /* 배경 색 */
+    text-align: center;      /* 텍스트 중앙 정렬 */
+    line-height: 30px;      /* 세로 가운데 정렬 */
+  }
+  
